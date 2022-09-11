@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .tm-social {
+            width: 50px;
+            height: 50px;
+        }
+        .img{
+            width: 355px;
+            height: 430px;
+        }
+        .larg{
+            width: 355px;
+        }
+
+    </style>
+
+    <title>Velozes e Furiosos</title>
+
+    <!--Link para pegar o estilo CSS dos servidores do Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>    
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">Velozes e Furiosos</a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#Home">Home<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Filmes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#VF">Velozes e Furiosos</a>
+                            <a class="dropdown-item" href="#+VF">+Velozes e +Furiosos</a>
+                            <a class="dropdown-item" href="#VFT">Velozes e Furiosos: Desafio em Tóquio</a>
+                            <a class="dropdown-item" href="#VF4">Velozes e Furiosos 4</a>
+                            <a class="dropdown-item" href="#VF5">Velozes e Furiosos 5: Operação Rio</a>
+                            <a class="dropdown-item" href="#VF6">Velozes e Furiosos 6</a>
+                            <a class="dropdown-item" href="#VF7">Velozes e Furiosos 7</a>
+                            <a class="dropdown-item" href="#VF8">Velozes e Furiosos 8</a>
+                            <a class="dropdown-item" href="#VF9">Velozes e Furiosos 9</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light " href="#Sucesso">Maior Sucesso<span class="sr-only">(current)</span></a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--/Menu-->
+    <!--Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100"
+                    src="https://br.web.img2.acsta.net/r_1280_720/newsv7/20/02/05/21/07/4386661.jpg"
+                    alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="http://s2.glbimg.com/q2R5TDhtMzwzoyUTSUHEff9PTus=/smart/e.glbimg.com/og/ed/f/original/2017/02/08/velozes.jpg"
+                    alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://assets.b9.com.br/wp-content/uploads/2017/04/fast8-1280x720.jpg"
+                    alt="Terceiro Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <!--/Carousel-->
+
+    <!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid bg-dark text-light p-3 text-center">
+        <div class="container">
+            <h1 class="display-4">Filmes</h1>
+        </div>
+    </div>
+    <!--/Jumbotron-->
+
+    <div id="Home" class="col-12 mt-5 mb-5">
+        <div class="col-md-12 text-center">
+            <h3>Franquia Velozes e Furiosos</h3>
+            <p>Os Filmes da franquia é Velozes e Furiosos ganharam o publico através de suas ações envolvendo rachas de carros tunados, ação policial, roubos de cargas e toda a história da Familia Toretto e seus amigos que juntos formam a melhor equipe para realizar os planos mais diversos através de seus super carros, união e trabalho em equipe.</p>
+        </div>
+    </div>
+
+    <!--Cards-->
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+                <div class="card">
+                    <h5 id="VF" class="card-title text-center text-light bg-dark m-0 larg">Velozes e Furiosos</h5>
+                    <img class="img" src="assets/img/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Sinopse: (2001) No primeiro filme dessa saga o policial novato Brian O'Conner (Paul Walker) se infiltra no submundo dos "rachas" em Los Angeles, nos Estados Unidos, e conhece o líder da gangue de corredores, Dominic Toretto (Vin Diesel).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h5 id="+VF" class="card-title text-center text-light bg-dark m-0 larg">+Velozes e +Furiosos</h5>
+                    <img class="img" src="assets/img/+v-f.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Sinopse: (2003) Brian se muda para Miami depois de ter problemas com a lei e ganha a vida participando de corridas de rua. Como agente infiltrado, recebe a missão de derrubar o criminoso Carter Verone (Cole Hauser).</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h5 id="VFT" class="card-title text-center text-light bg-dark m-0 larg">Velozes e Furiosos: Desafio em Tóquio</h5>
+                    <img class="img" src="assets/img/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Sinopse: (2006) Neste  os acontecimentos sucedem "Velozes e Furiosos 6". A trama acompanha outros personagens e tem como protagonista Sean Boswell (Lucas Black), um jovem corredor que vai morar em Tóquio para escapar de problemas nos EUA.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h5 id="VF4" class="card-title text-center text-light bg-dark m-0 larg">Velozes e Furiosos 4</h5>
+                    <img class="img" src="assets/img/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Sinopse: (2009) Vivendo na República Dominicana com a namorada Letty (Michelle Rodriguez), Dominic é procurado pelo FBI. Depois do aparente assassinato da amada, ele vai aos Estados Unidos e volta a cruzar o caminho de Brian.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h5 id="VF5" class="card-title text-center text-light bg-dark m-0 larg">Velozes e Furiosos 5 - Operação Rio</h5>
+                    <img class="img" src="assets/img/5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Sinopse: (2011) Saindo de Los Angeles e indo ao Rio de Janeiro, Dom lidera sua equipe em buscando refugiu para fugir das autoridades.
+                            O policial Hobbs (Dwayne Johnson), passa a persegui-los enquanto tramam roubar Hernan Reis (Joaquim de Almeida).
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h5 id="VF6" class="card-title text-center text-light bg-dark m-0 larg">Velozes e Furiosos 6</h5>
+                    <img class="img" src="assets/img/6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Sinopse: (2013) O elenco principal retorna completo e ganha o apoio de Luke Evans como o vilão Owen Shaw. Michelle Rodriguez, que teve sua personagem "morta" no quarto longa, retorna para dar ainda mais ação.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h5 id="VF7" class="card-title text-center text-light bg-dark m-0 larg">Velozes e Furiosos 7</h5>
+                    <img class="img" src="assets/img/7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Sinopse: (2015) No sétimo filme, a família de Dom luta contra Deckard Shaw (Jason Statham), irmão do vilão do sexto filme que busca vingança, e salvam a hacker Ramsey (Nathalie Emmanuel), que se torna parte do grupo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h5 id="VF8" class="card-title text-center text-light bg-dark m-0 larg">Velozes e Furiosos 8</h5>
+                    <img class="img" src="assets/img/8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Sinopse: (2017) Toretto é chantageado e precisa trabalhar para ciberterrorista Cipher (Charlize Theron), que mantem a ex-namorada Elena (Elsa Pataky) e seu recém-descoberto filho como reféns. Agora a equipe precisa lutar contra seu próprio líder.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h5 id="VF9" class="card-title text-center text-light bg-dark m-0 larg">Velozes e Furiosos 9</h5>
+                    <img class="img" src="assets/img/9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Sinopse: (2021) Dom segue uma vida pacata ao lado de Letty (Michelle Rodriguez) e seu filho Brian. Porém, a chegada do irmão desaparecido de Dom: Jakob (John Cena) atrapalha os planos. 
+                            Ele está trabalhando ao lado de Cipher, que quer vingança.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Cards-->
+
+        <!--Texto e Video-->
+        <div id="Sucesso" class="row mt-5 mb-5">
+            <div class="col-md-6">
+                <h3>Velozes e Furiosos 7</h3>
+                <p>O Filme de maior sucesso da franquia é Velozes e Furiosos 7. Além dos fãs da franquia muitas outras pessoas estavam esperando o lançamento do filme, a curiosidade de muitas pessoas que não acompanhavam a produção desde o inicio se deu devido a um fatal acidente. 
+                    Durante uma pausa nas gravações de Velozes e Furiosos 7 Paul Walker morreu em um acidente de carro.</p>
+                <p>Logo, Wan, ao lado dos produtores e do roteirista Chris Morgan, tiveram que adaptar cenas para o filme, e no final conseguiram entregar uma despedida emocionante para o personagem Brian O'Conner, mesclando a magia do cinema com a realidade. 
+                    Os elogios foram quase unanimidade entre os espectadores e críticos.</p>
+            </div>
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hujU0dw6Erk" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div>
+        </div>
+        <!--/Texto e Video-->
+   
+
+        <!--Formulário de contato-->
+
+        <div class="jumbotron jumbotron-fluid bg-dark text-light p-2 text-center"></div>
+
+        <div class="row mb-4">
+          <div class="col-md-12">
+            <h4 class="text-center">
+              ===================================================================
+            </h4>
+          </div> 
+        </div>
+
+        <div class="jumbotron jumbotron-fluid bg-dark text-light p-2 text-center"></div>
+      
+        <div class="row mb-4">
+            <div class="col-md-12">
+              <h4 class="text-center">
+                Entre em Contato
+              </h4>
+            </div> 
+          </div>
+
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Endereço de email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                </div>
+               
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+      
+                <div class="form-group d-flex justify-content-end">
+                  <button class="btn btn-outline-success">Enviar</button>
+                </div>
+              </form>
+            </div>
+      
+            <div class="col-md-6">
+              <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106696296001!2d-46.65390548535577!3d-23.564611167596592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1594056507065!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+        </div> 
+      
+          <!--/Formulário de contato-->
+
+    <!--Rodapé-->
+    <hr>
+    <footer>
+
+        <div class="row mb-3">
+            <div class="col-md-12 d-flex justify-content-center ">
+                <a href="https://www.linkedin.com/in/henrique-melo-6867b4127/" target="_blank" class="p-3">
+                    <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+                </a>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">
+                    pagina criada por Henrique Melo &copy
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!--/Rodapé-->
+
+    <!--Scripts necessários para utilização dos códigos JS do Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integridade="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anônimo"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integridade="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anônimo"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integridade="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anônimo"></script>
+</body>
+
+</html>
+
